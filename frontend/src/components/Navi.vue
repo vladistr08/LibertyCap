@@ -20,10 +20,10 @@
 
             <div class="form-inline my-2 my-lg-0">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item" v-if="!getIsAuth">
+                    <li class="nav-item">
                         <router-link to="/login"> <a class="nav-link">Log in</a> </router-link>
                     </li>
-                    <li class="nav-item" v-if="!getIsAuth">
+                    <li class="nav-item">
                         <router-link to="/signin"> <a class="nav-link">Register</a> </router-link>
                     </li>
                     <form >
