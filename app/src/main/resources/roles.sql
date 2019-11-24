@@ -1,0 +1,5 @@
+INSERT INTO role(name) VALUES('ROLE_BUYER');
+INSERT INTO role(name) VALUES('ROLE_SELLER');
+
+
+
